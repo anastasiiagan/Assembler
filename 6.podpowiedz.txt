@@ -1,0 +1,6 @@
+
+1.
+
+po 1 lin:
+rax = 1
+rsp = 0x7fffffffdf00

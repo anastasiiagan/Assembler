@@ -1,0 +1,39 @@
+<_start>       endbr64                                                                                                                                                                       │
+│   0x401d74 <_start+4>     xor    ebp,ebp                                                                                                                                                                │
+│   0x401d76 <_start+6>     mov    r9,rdx                                                                                                                                                                 │
+│   0x401d79 <_start+9>     pop    rsi                                                                                                                                                                    │
+│   0x401d7a <_start+10>    mov    rdx,rsp                                                                                                                                                                │
+│   0x401d7d <_start+13>    and    rsp,0xfffffffffffffff0                                                                                                                                                 │
+│   0x401d81 <_start+17>    push   rax                                                                                                                                                                    │
+│   0x401d82 <_start+18>    push   rsp                                                                                                                                                                    │
+│   0x401d83 <_start+19>    mov    r8,0x4031e0                                                                                                                                                            │
+│   0x401d8a <_start+26>    mov    rcx,0x403140                                                                                                                                                           │
+│   0x401d91 <_start+33>    mov    rdi,0x401850                                                                                                                                                           │
+│   0x401d98 <_start+40>    addr32 call 0x4024e0 <__libc_start_main>                                                                                                                                      │
+│   0x401d9e <_start+46>    hlt                                                                                                                                                                           │
+│   0x401d9f                    nop
+
+
+│   0x401d7d <_start+13>                    and    rsp,0xfffffffffffffff0                                                                                                                                 │
+│   0x401d81 <_start+17>                    push   rax                                                                                                                                                    │
+│   0x401d82 <_start+18>                    push   rsp                ax                                                                                                                                  │
+│   0x401d83 <_start+19>                    mov    r8,0x4031e0rip+0xbfe3e],                         libc_multiple_libcs>                                                                                  │
+│   0x401d8a <_start+26>                    mov    rcx,0x403140                                                                                                                                           │
+│   0x401d91 <_start+33>                    mov    rdi,0x401850                                                                                                                                           │
+│   0x401d98 <_start+40>                    addr32 call 0x4024e0 <__libc_start_main>                                                                                                                      │
+│   0x401d9e <_start+46>                    hlt 
+
+0x401d70 <_start>       endbr64                                                                                                                                                                       │
+│   0x401d74 <_start+4>     xor    ebp,ebp                                                                                                                                                                │
+│   0x401d76 <_start+6>     mov    r9,rdx                                                                                                                                                                 │
+│   0x401d79 <_start+9>     pop    rsi                                                                                                                                                                    │
+│   0x401d7a <_start+10>    mov    rdx,rsp                                                                                                                                                                │
+│   0x401d7d <_start+13>    and    rsp,0xfffffffffffffff0                                                                                                                                                 │
+│   0x401d81 <_start+17>    push   rax                                                                                                                                                                    │
+│   0x401d82 <_start+18>    push   rsp                                                                                                                                                                    │
+│   0x401d83 <_start+19>    mov    r8,0x4031e0                                                                                                                                                            │
+│   0x401d8a <_start+26>    mov    rcx,0x403140                                                                                                                                                           │
+│   0x401d91 <_start+33>    mov    rdi,0x401850                                                                                                                                                           │
+│   0x401d98 <_start+40>    addr32 call 0x4024e0 <__libc_start_main>                                                                                                                                      │
+│   0x401d9e <_start+46>    hlt                                                                                                                                                                           │
+│   0x401d9f                    nop
